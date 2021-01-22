@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "560262931",
+    "project_id": "time2achieve-fbfad",
+    "storage_bucket": "time2achieve-fbfad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560262931:android:f1214645d960081811f4e6",
+        "android_client_info": {
+          "package_name": "com.yashanand.time2achieve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560262931-bcjele1feoi9tlvb5h19r6ble6b6urn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yashanand.time2achieve",
+            "certificate_hash": "5c57c0497e458aa15a36a9fa6fc3a42865ac30d7"
+          }
+        },
+        {
+          "client_id": "560262931-po8o01me00lj1m8103sq7t9c758ugh50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCzvwBAA-KKXX7aFuHoiPW3RzIQKkIf2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560262931-po8o01me00lj1m8103sq7t9c758ugh50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

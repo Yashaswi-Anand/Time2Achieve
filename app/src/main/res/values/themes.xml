@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Time2Achieve" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Time2Achieve.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Time2Achieve.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Time2Achieve.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

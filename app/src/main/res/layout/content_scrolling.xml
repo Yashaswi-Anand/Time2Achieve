@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_scrollFlags="scroll|snap|enterAlways">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#DB1E88E5"
+            android:elevation="5dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_scrollFlags="scroll|snap|enterAlways"
+            app:tabIndicatorColor="@android:color/holo_green_light"
+            app:tabRippleColor="#FFA726"
+            app:tabSelectedTextColor="#76FF03"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:tabTextColor="#ffffff"
+            app:tabUnboundedRipple="false">
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="?attr/actionBarSize"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="8dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

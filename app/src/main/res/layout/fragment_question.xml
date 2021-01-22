@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Question">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfViewQ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/noDataQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="@string/afterNoData"
+        android:textColor="#056A0A"
+        android:textSize="40sp"
+        android:visibility="gone" />
+
+
+</FrameLayout>
